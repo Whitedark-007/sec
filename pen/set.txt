@@ -1,0 +1,14 @@
+setoolkit
+
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install set
+
+sudo setoolkit
+
+git clone https://github.com/trustedsec/social-engineer-toolkit.git
+cd social-engineer-toolkit
+
+sudo python3 setup.py
+
+sudo python3 setoolkit
